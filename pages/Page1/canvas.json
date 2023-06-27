@@ -28,6 +28,72 @@
           "children": [
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Echarts2Copy",
+              "allowScroll": false,
+              "displayName": "Echarts",
+              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+              "searchTags": [
+                "graph",
+                "echart",
+                "chart",
+                "visualisations"
+              ],
+              "topRow": 91,
+              "bottomRow": 123,
+              "parentRowSpace": 10,
+              "customEchartConfig": "{{\noption = {\n  tooltip: {\n    trigger: 'axis',\n    axisPointer: {\n      type: 'cross',\n      crossStyle: {\n        color: '#999'\n      }\n    }\n  },\n  toolbox: {\n    feature: {\n      dataView: { show: true, readOnly: false },\n      magicType: { show: true, type: ['line', 'bar'] },\n      restore: { show: true },\n      saveAsImage: { show: true }\n    }\n  },\n  legend: {\n    data: ['Precipitation', 'Temperature']\n  },\n  xAxis: [\n    {\n      type: 'category',\n      data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],\n      axisPointer: {\n        type: 'shadow'\n      }\n    }\n  ],\n  yAxis: [\n    {\n      type: 'value',\n      name: 'Precipitation',\n      min: 0,\n      max: 250,\n      interval: 50,\n      axisLabel: {\n        formatter: '{value} ml'\n      }\n    },\n    {\n      type: 'value',\n      name: 'Temperature',\n      min: 0,\n      max: 25,\n      interval: 5,\n      axisLabel: {\n        formatter: '{value} °C'\n      }\n    }\n  ],\n  series: [\n    {\n      name: 'Precipitation',\n      type: 'bar',\n      tooltip: {\n        valueFormatter: function (value) {\n          return value + ' ml';\n        }\n      },\n      data: [\n        2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3\n      ]\n    },\n    {\n      name: 'Temperature',\n      type: 'line',\n      yAxisIndex: 1,\n      tooltip: {\n        valueFormatter: function (value) {\n          return value + ' °C';\n        }\n      },\n      data: [2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]\n    }\n  ]\n};\n}}",
+              "type": "ECHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "n30kaxqsac": {
+                  "type": "line",
+                  "seriesName": "秋季系列",
+                  "data": "[\n  {\n    \"value\": 335,\n    \"name\": \"衬衫\"\n  },\n  {\n    \"value\": 234,\n    \"name\": \"羊毛衫\"\n  },\n  {\n    \"value\": 1548,\n    \"name\": \"雪纺衫\"\n  },\n  {\n    \"value\": 758,\n    \"name\": \"裤子\"\n  },\n  {\n    \"value\": 358,\n    \"name\": \"高跟鞋\"\n  },\n  {\n    \"value\": 658,\n    \"name\": \"袜子\"\n  }\n]"
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 32,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "customEchartConfig"
+                }
+              ],
+              "mycustom": 2,
+              "key": "vjfe4lqegr",
+              "isDeprecated": false,
+              "rightColumn": 56,
+              "widgetId": "2kul6k6beh",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "销量",
+              "originalTopRow": 91,
+              "chartName": "",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "xAxisName": "品类",
+              "originalBottomRow": 123,
+              "chartType": "CUSTOM_CHART"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Echarts1Copy",
               "allowScroll": false,
               "dynamicPropertyPathList": [],
@@ -4883,9 +4949,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "yAxisName": "销量",
+              "originalTopRow": 91,
               "chartName": "",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "xAxisName": "品类",
+              "originalBottomRow": 123,
               "chartType": "CUSTOM_CHART"
             }
           ]
