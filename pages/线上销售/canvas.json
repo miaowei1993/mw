@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "页面2",
-    "slug": "2",
+    "name": "线上销售",
+    "slug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -28,14 +28,15 @@
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "页面2",
+        "id": "线上销售",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "64900fe86fbfd93d5cd448cf_649997636fbfd93d5cd46cdb"

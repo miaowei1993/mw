@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "JSObject1",
-    "pageId": "Page1",
+    "pageId": "预约申购",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -19,7 +19,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1",
+  "id": "预约申购_JSObject1",
   "deleted": false,
   "gitSyncId": "64900fe86fbfd93d5cd448cf_64998a276fbfd93d5cd46c2d"
 }

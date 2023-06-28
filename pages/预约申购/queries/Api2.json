@@ -15,7 +15,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "预约申购",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -68,7 +68,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Api2",
+  "id": "预约申购_Api2",
   "deleted": false,
   "gitSyncId": "64900fe86fbfd93d5cd448cf_64998ae96fbfd93d5cd46c31"
 }

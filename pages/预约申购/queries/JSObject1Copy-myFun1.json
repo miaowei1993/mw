@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_JSObject1Copy",
+    "pageId": "预约申购",
+    "collectionId": "预约申购_JSObject1Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1Copy.myFun1",
+  "id": "预约申购_JSObject1Copy.myFun1",
   "deleted": false,
   "gitSyncId": "64900fe86fbfd93d5cd448cf_64998b836fbfd93d5cd46c41"
 }

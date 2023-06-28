@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "预约申购",
+    "slug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -161,7 +161,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 20.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 32,
+              "leftColumn": 53,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -185,7 +185,7 @@
               "mycustom": 2,
               "key": "nag4jwvswj",
               "isDeprecated": false,
-              "rightColumn": 60,
+              "rightColumn": 64,
               "widgetId": "4n8uaa1jzl",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -372,7 +372,7 @@
                   "key": "primaryColumns.saleQty.computedValue"
                 }
               ],
-              "leftColumn": 32,
+              "leftColumn": 53,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "showInlineEditingOptionDropdown": true,
@@ -1861,7 +1861,7 @@
               },
               "key": "0w0ni7c3uy",
               "isDeprecated": false,
-              "rightColumn": 60,
+              "rightColumn": 64,
               "textSize": "0.875rem",
               "widgetId": "3si2zstdft",
               "allowAddNewRow": false,
@@ -3177,7 +3177,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 20.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -3198,7 +3198,7 @@
               "mycustom": 2,
               "key": "nag4jwvswj",
               "isDeprecated": false,
-              "rightColumn": 30,
+              "rightColumn": 20,
               "widgetId": "omlh183sde",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -3385,7 +3385,7 @@
                   "key": "primaryColumns.saleQty.computedValue"
                 }
               ],
-              "leftColumn": 3,
+              "leftColumn": 0,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "showInlineEditingOptionDropdown": true,
@@ -4874,7 +4874,7 @@
               },
               "key": "0w0ni7c3uy",
               "isDeprecated": false,
-              "rightColumn": 31,
+              "rightColumn": 20,
               "textSize": "0.875rem",
               "widgetId": "u3vdy6kyav",
               "allowAddNewRow": false,
@@ -4955,13 +4955,99 @@
               "xAxisName": "品类",
               "originalBottomRow": 123,
               "chartType": "CUSTOM_CHART"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Echarts3",
+              "allowScroll": false,
+              "displayName": "Echarts",
+              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+              "searchTags": [
+                "graph",
+                "echart",
+                "chart",
+                "visualisations"
+              ],
+              "topRow": 32,
+              "bottomRow": 71,
+              "parentRowSpace": 10,
+              "customEchartConfig": "{\n  \"title\": {\n    \"text\": \"基础折线图\"\n  },\n  \"xAxis\": {\n    \"type\": \"category\",\n    \"data\": [\n      \"Mon\",\n      \"Tue\",\n      \"Wed\",\n      \"Thu\",\n      \"Fri\",\n      \"Sat\",\n      \"Sun\"\n    ]\n  },\n  \"yAxis\": {\n    \"type\": \"value\"\n  },\n  \"series\": [\n    {\n      \"data\": [\n        150,\n        230,\n        224,\n        218,\n        135,\n        147,\n        260\n      ],\n      \"type\": \"line\"\n    }\n  ]\n}",
+              "type": "ECHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "o1eswrmm1g": {
+                  "type": "line",
+                  "seriesName": "秋季系列",
+                  "data": [
+                    {
+                      "value": 335,
+                      "name": "衬衫"
+                    },
+                    {
+                      "value": 234,
+                      "name": "羊毛衫"
+                    },
+                    {
+                      "value": 1548,
+                      "name": "雪纺衫"
+                    },
+                    {
+                      "value": 758,
+                      "name": "裤子"
+                    },
+                    {
+                      "value": 358,
+                      "name": "高跟鞋"
+                    },
+                    {
+                      "value": 658,
+                      "name": "袜子"
+                    }
+                  ]
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 20,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "mycustom": 2,
+              "key": "6cxxhtjmzu",
+              "isDeprecated": false,
+              "rightColumn": 53,
+              "widgetId": "38jzl8h68q",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "销量",
+              "chartName": "",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "xAxisName": "品类",
+              "chartType": "CUSTOM_CHART"
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_summary",
+              "id": "预约申购_summary",
               "name": "summary",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -4971,7 +5057,7 @@
           ],
           [
             {
-              "id": "Page1_detail",
+              "id": "预约申购_detail",
               "name": "detail",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -4981,7 +5067,7 @@
           ],
           [
             {
-              "id": "Page1_Api1",
+              "id": "预约申购_Api1",
               "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -4991,7 +5077,7 @@
           ],
           [
             {
-              "id": "Page1_trend",
+              "id": "预约申购_trend",
               "name": "trend",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -5002,7 +5088,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "预约申购",
         "deleted": false,
         "policies": [],
         "userPermissions": []

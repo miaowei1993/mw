@@ -1,15 +1,15 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "预约申购",
       "isDefault": true
     },
     {
-      "id": "页面1",
+      "id": "销售概况",
       "isDefault": false
     },
     {
-      "id": "页面2",
+      "id": "线上销售",
       "isDefault": false
     }
   ],
@@ -17,7 +17,7 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#C7F3F0",
-  "icon": "arrow-left",
+  "icon": "headphones",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
@@ -27,5 +27,6 @@
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
+  "viewerLayout": "{\"color\":\"#1e3a8a\",\"logoUrl\":\"\",\"name\":\"I茅台数据门户\",\"treeData\":[{\"title\":\"销售概况\",\"pageId\":\"649997396fbfd93d5cd46cd9\",\"isPage\":true},{\"title\":\"销售模式\",\"expanded\":true,\"children\":[{\"title\":\"线上销售\",\"pageId\":\"649997636fbfd93d5cd46cdc\",\"isPage\":true},{\"title\":\"预约申购\",\"pageId\":\"64900fe86fbfd93d5cd448d2\",\"isPage\":true}]}],\"outsiderTree\":[]}",
   "deleted": false
 }

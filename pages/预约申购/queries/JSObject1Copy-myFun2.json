@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "fullyQualifiedName": "JSObject1Copy.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_JSObject1",
+    "pageId": "预约申购",
+    "collectionId": "预约申购_JSObject1Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,12 +37,12 @@
     "jsonPathKeys": [
       "async () => {}"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1.myFun2",
+  "id": "预约申购_JSObject1Copy.myFun2",
   "deleted": false,
-  "gitSyncId": "64900fe86fbfd93d5cd448cf_64998a276fbfd93d5cd46c29"
+  "gitSyncId": "64900fe86fbfd93d5cd448cf_64998b836fbfd93d5cd46c3f"
 }
