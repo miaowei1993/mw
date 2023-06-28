@@ -27,7 +27,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "预约申购",
+    "pageId": "线上销售",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -63,7 +63,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "预约申购_detail",
+  "id": "线上销售_detail",
   "deleted": false,
-  "gitSyncId": "64900fe86fbfd93d5cd448cf_649297b86fbfd93d5cd45322"
+  "gitSyncId": "64900fe86fbfd93d5cd448cf_649bdb056fbfd93d5cd47981"
 }

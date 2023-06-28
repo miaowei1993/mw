@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "summary",
+    "name": "trend",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -17,11 +17,11 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "预约申购",
+    "pageId": "线上销售",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/fuxi/fuxi-flow/xhr/entry-page-overview/summary",
+      "path": "/fuxi/fuxi-flow/xhr/entry-page-overview/trend",
       "headers": [
         {
           "key": "content-type",
@@ -34,7 +34,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"startDate\":1687240422706,\"endDate\":1687240422706,\"clientType\":\"app\",\"userType\":-1,\"queryType\":\"rt\",\"contrastStartDate\":1687154022706,\"contrastEndDate\":1687154022706}\n",
+      "body": "{\"startDate\":1686499200000,\"endDate\":1687103999999,\"clientType\":\"app\",\"userType\":-1,\"queryType\":\"offline\",\"contrastStartDate\":1685894400000,\"contrastEndDate\":1686499199999}\n",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -47,7 +47,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -58,7 +58,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "预约申购_summary",
+  "id": "线上销售_trend",
   "deleted": false,
-  "gitSyncId": "64900fe86fbfd93d5cd448cf_6492962f6fbfd93d5cd45313"
+  "gitSyncId": "64900fe86fbfd93d5cd448cf_649bdb056fbfd93d5cd47980"
 }
